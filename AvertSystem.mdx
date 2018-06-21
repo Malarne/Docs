@@ -18,3 +18,17 @@ Le principal outil **unique à AyRobot** pour la modération !
 - **avert config report \<channel\>**: Choix du channel où seront envoyé les **.report** des membres.
 - **avert config roleid \<id\>**: ID du role à tag lors d'un report.
 - **avert config serveur \<id\>**: ID du serveur courant.
+
+**Bravo ! Vous avez configuré Roboto ! Vous pouvez maintenant l'utiliser !**
+
+# Fonctionalités:
+
+- **avert [1, 2, 3, 4] \<utilisateur\> (\*) \<raison\>**: Permet de sanctionner un utilisateur. 1 = avertissement simple, 2 = kick, 3 = tempban, 4 = bannissement définitif
+- **capsname \<utilisateur\>**: Permet de renommer automatiquement un utilisateur qui a un nom en majuscules (1ere lettre gardée)
+- **casier \<id\>**: Permet d'afficher toutes les sanctions d'un utilisateur. Attention ! L'utilisateur doit toujours être sur le serveur !
+- **deban \<id\>**: Explicite, mais fonctionnement de la commande non garanti.
+- **mban \<utilisateur\>**: Permet de mettre le role configuré par le **avert config muted** à l'utilisateur ciblé, ou de lui enlever.
+- **report \<utilisateur\> \<raison\>**: Permet à un utilisateur de report un individu à la modération.
+- **tempmute \<utilisateur\> <durée>**: Permet de mute temporairement un utilisateur. Durée en secondes.
+
+(*) Dans le cas d'un tempban, un argument de durée s'ajoute entre l'utilisateur et la raison, de la forme \<nombre\> \<unité\> (minutes, heures, jours, semaines, mois)
